@@ -5,6 +5,8 @@ form#cadastro {
   border-radius: 5px;
   height: 300px;
   width: 240px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 form#cadastro input {

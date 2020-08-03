@@ -2,22 +2,28 @@ import React from 'react';
 import './assets/css/main.css';
 import './assets/css/navbar.css';
 import './assets/css/btn.css';
-import Logo from "./logo.png";
+import logo from './logo.png';
 
 function App() {
   return (
-    <div className="App">
-      <div className="navbar">
-      <a href="/" className="logo"><img src={Logo} alt="logo" width="50" /></a>
-          <a href="/" className="down">Home</a>
-          <a href="aaa" className="down">Sobre</a>
-          <a href="aaa" className="down">Equipe</a>
-      <header className="slider"> 
-         <h1>"Não pelo lucro, pela ciência."</h1>
-         <a href="/cadastro" className="btn">Cadastro</a>
-      </header>      
-    </div>
-    </div>
+    <div id="inicio">
+      <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left">
+          <ul class="uk-navbar-nav">
+            <li class="uk-parent"><a href="/">Home</a></li>
+            <li class="uk-parent"><a href="sobre">Sobre</a></li>
+          </ul>
+        </div>
+      </nav>
+        <div class="uk-animation-toggle" tabindex="0">
+          <div class="uk-animation-fade">
+            <img src={logo} alt="teste" width="100" />
+          </div>
+        </div>
+        <div class="ola">
+        <h2>Bem vindo (a) ao Scribble</h2>
+      </div>
+      </div>
   );
 }
 

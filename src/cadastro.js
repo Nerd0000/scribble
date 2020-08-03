@@ -3,17 +3,18 @@ import './assets/css/main.css';
 import './assets/css/btn.css';
 import './assets/css/navbar.css';
 import './assets/css/cadastro.css';
-import Logo from "./logo.png";
 
 function App() {
   return (
-    <div className="App">
-      <div className="navbar">
-          <a href="/" className="logo"><img src={Logo} alt="logo" width="50" /></a>
-          <a href="/" className="down">Home</a>
-          <a href="aaa" className="down">Sobre</a>
-          <a href="aaa" className="down">Equipe</a>
-      <header className="slider"> 
+    <div id="inicio">
+    <nav class="uk-navbar-container" uk-navbar>
+      <div class="uk-navbar-left">
+        <ul class="uk-navbar-nav">
+          <li class="uk-parent"><a href="/">Home</a></li>
+          <li class="uk-parent"><a href="sobre">Sobre</a></li>
+        </ul>
+      </div>
+    </nav>
       <div id="cadastro"> 
       <h1>Crie sua conta.</h1>
           <form id="cadastro" action="home">
@@ -25,9 +26,7 @@ function App() {
           <br />
           <input type="submit" className="btn-cads" value="Cadastrar"/>          
           </form>
-      </div>
-      </header>      
-    </div>
+      </div>    
     </div>
   );
 }
