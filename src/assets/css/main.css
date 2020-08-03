@@ -15,10 +15,10 @@ h1,h2,h3,h4 {
 a.nav-link {
   margin-top: 5px;
 }
-
-a href{
-  color: grey;
+a {
+  color: gray;
 }
+
 a:hover{
   color: white;
 }
