@@ -1,5 +1,5 @@
 .btn {
-    background: #696969;
+    background: #1c252c;
     font-weight: bold;
     color: white;
     border-radius: 5px;
@@ -15,7 +15,4 @@
     border: none;
     padding: 10px;
     margin-left: 10px;
-}
-a{
-    color: white;
 }

@@ -1,15 +1,21 @@
 body {
-  background-color: black;
+  background-color: #0f1418;
   height: 100vh;
-  color: white;
+  color: indigo;
   font-family: 'Mulish', sans-serif;
   text-align: center;
 }
-h1,h2,h3,h4{
+
+h1,h2,h3,h4 {
   color: white;
   font-family: 'Mulish';
   font-weight: bold;
 }
-a.nav-link{
+
+a.nav-link {
   margin-top: 5px;
+}
+
+a{
+  color: white;
 }
