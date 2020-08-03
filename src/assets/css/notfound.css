@@ -1,0 +1,27 @@
+.notfound {
+  text-align: left;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.notfound .home {
+  text-decoration: none;
+  color: #10413e;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.spin_ani {
+  animation: spin 5s linear infinite;
+}

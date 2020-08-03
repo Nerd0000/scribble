@@ -1,0 +1,19 @@
+form#cadastro {
+  font-family: 'Mulish';
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  height: 300px;
+  width: 240px;
+}
+
+form#cadastro input {
+  text-align: center;
+  background-color: #161d27;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
