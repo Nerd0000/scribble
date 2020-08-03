@@ -16,6 +16,9 @@ a.nav-link {
   margin-top: 5px;
 }
 
-a{
+a href{
+  color: grey;
+}
+a:hover{
   color: white;
 }

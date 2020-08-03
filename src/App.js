@@ -22,7 +22,7 @@ function App() {
       <div class="cadastrologin">
         <h3>Crie sua conta gratuitamente <br />e comece a compartilhar ideias!</h3>
         <a href="cadastro"><button class="btn">Cadastrar-se</button></a>
-        <a href="cadastro"><button class="btnlogin ">Login</button></a>
+        <a href="login"><button class="btnlogin ">Login</button></a>
       </div>
     </div>
   );
