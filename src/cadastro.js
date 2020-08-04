@@ -1,7 +1,6 @@
 import React from 'react';
 import './assets/css/main.css';
 import './assets/css/btn.css';
-import './assets/css/navbar.css';
 import './assets/css/cadastro.css';
 import logo from './logo.png';
 

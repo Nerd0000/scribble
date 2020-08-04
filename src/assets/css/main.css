@@ -1,7 +1,7 @@
 body {
   background-color: #0f1418;
   height: 100vh;
-  color: indigo;
+  color: white;
   font-family: 'Mulish', sans-serif;
   text-align: center;
 }
@@ -21,4 +21,16 @@ a {
 
 a:hover{
   color: white;
+}
+div.apoie h{
+  color: black;
+}
+div.apoie{
+  color: black;
+  background-color: white;
+}
+button.doar{
+  background-color: mediumseagreen;
+  border: none;
+  padding: 10px;
 }
