@@ -2,13 +2,12 @@ import React from 'react';
 import './assets/css/main.css';
 import './assets/css/btn.css';
 import logo from './logo.png';
-import doar from './assets/img/doar.png';
 
 function App() {
   return (
     <div id="inicio">
       <ul class="nav">
-      <img src={logo} alt="" width="50"></img>
+        <img src={logo} alt="" width="50"></img>
         <li class="nav-item">
           <a class="nav-link" href="/">Home</a>
         </li>
@@ -24,13 +23,19 @@ function App() {
         <a href="cadastro"><button class="btncad">Cadastrar-se</button></a>
         <a href="login"><button class="btnlogin ">Login</button></a>
       </div>
+      <br />
       <div class="apoie">
-      <h3>Aproveite e apoie nosso projeto</h3>
-      <img src={doar} alt=""></img>
-      <button class="doar">Doar</button>
-      <br />Doando você vai para o <b>mural dos apoiadores</b>
-
-    </div>
+      <br />
+        <div class="sobre">
+          <h3>Aproveite e apoie nosso projeto</h3>
+          <button class="doar">Doar</button>
+          <br />Doando você vai para o <b>mural dos apoiadores</b>
+        <br />e ajuda a comunidade científica.
+        </div> 
+        <h1>Da comunidade científica,
+          <br />para a comunidade.
+        </h1>
+      </div>
     </div>
   );
 }
