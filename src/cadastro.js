@@ -4,7 +4,7 @@ import './assets/css/btn.css';
 import './assets/css/cadastro.css';
 import logo from './logo.png';
 
-function App() {
+function Cadastro() {
   return (
     <div id="inicio">
      <ul class="nav">
@@ -23,15 +23,15 @@ function App() {
       <h1>Crie sua conta.</h1>
           <form id="cadastro" action="home">
           <br />
-          <input type="text" id="nome" placeholder="Nome" minlenght="5" required />
-          <input type="text" id="usuario" placeholder="Usuario" minlenght="1" required/>
-          <input type="text" id="email" placeholder="Email" minlenght="10" required />
-          <input type="text" id="password" placeholder="Senha" minlenght="8" required />
+          <input type="text" name="nome" placeholder="Nome" minlenght="5" required />
+          <input type="text" name="usuario" placeholder="Usuario" minlenght="1" required/>
+          <input type="text" name="email" placeholder="Email" minlenght="10" required />
+          <input type="text" name="password" placeholder="Senha" minlenght="8" required />
           <br />
           <input type="submit" className="btn-cads" value="Cadastrar"/>          
           </form>
       </div>    
-    </div>
-  );
-}
-export default App;
+      </div>
+    );
+  }
+export default Cadastro;

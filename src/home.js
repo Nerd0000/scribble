@@ -2,8 +2,8 @@ import React from 'react';
 import './assets/css/main.css';
 import logo from "./logo.png";
 
-function App() {
-  return (
+function Home() {
+    return (
     <div id="home">
     <ul class="nav">
     <img src={logo} alt="" width="50"></img>
@@ -18,10 +18,11 @@ function App() {
       </li>
     </ul>
     <div id="ola">
-        <h1>Bem vindo, </h1>
+        <h1>Bem vindo</h1>
       </div>   
       </div>
+
   );
 }
 
-export default App;
+export default Home;
