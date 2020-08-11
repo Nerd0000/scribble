@@ -34,8 +34,7 @@ function App() {
           <br />
           <h3>Aproveite e apoie nosso projeto</h3>
           <button class="doar">Doar</button>
-          <br />Doando você vai para o <b>mural dos apoiadores</b>
-        <br />e ajuda a comunidade científica.
+          <br />Doando você vai para o <b>mural dos apoiadores</b>e ajuda a comunidade científica.
         </div> 
       </div>
     </div>
