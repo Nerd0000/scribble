@@ -1,3 +1,8 @@
+div.app{
+  background-image: url("../img/universe.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
 .notfound {
   text-align: left;
   position: absolute;
@@ -9,7 +14,8 @@
 
 .notfound .home {
   text-decoration: none;
-  color: #1d7c76;
+  color: white;
+  font-weight: bold;
 }
 
 
