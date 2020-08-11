@@ -21,15 +21,8 @@ function Cadastro() {
       </ul>
       <div id="cadastro"> 
       <h1>Crie sua conta.</h1>
-          <form id="cadastro" action="home">
-          <br />
-          <input type="text" name="nome" placeholder="Nome" minlenght="5" required />
-          <input type="text" name="usuario" placeholder="Usuario" minlenght="1" required/>
-          <input type="text" name="email" placeholder="Email" minlenght="10" required />
-          <input type="text" name="password" placeholder="Senha" minlenght="8" required />
-          <br />
-          <input type="submit" className="btn-cads" value="Cadastrar"/>          
-          </form>
+        
+
       </div>    
       </div>
     );

@@ -27,6 +27,7 @@ function App() {
       <div class="apoie">
       <br />
         <div class="sobre">
+          <br />
           <h3>Aproveite e apoie nosso projeto</h3>
           <button class="doar">Doar</button>
           <br />Doando você vai para o <b>mural dos apoiadores</b>
