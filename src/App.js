@@ -19,7 +19,11 @@ function App() {
         </li>
       </ul>
       <div class="cadastrologin">
-        <h3>Crie sua conta gratuitamente <br />e comece a compartilhar suas ideias!</h3>
+      <h2>Da comunidade científica,
+          <br />para a comunidade.
+        </h2>
+        Crie sua conta gratuitamente <br />e comece a compartilhar suas ideias!
+        <br />
         <a href="cadastro"><button class="btncad">Cadastrar-se</button></a>
         <a href="login"><button class="btnlogin ">Login</button></a>
       </div>
@@ -33,9 +37,6 @@ function App() {
           <br />Doando você vai para o <b>mural dos apoiadores</b>
         <br />e ajuda a comunidade científica.
         </div> 
-        <h1>Da comunidade científica,
-          <br />para a comunidade.
-        </h1>
       </div>
     </div>
   );

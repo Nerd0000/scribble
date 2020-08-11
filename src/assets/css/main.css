@@ -1,5 +1,8 @@
 body {
-  background-color: #000000;
+  background-image: url("../img/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   color: white;
   font-family: 'Mulish', sans-serif;
@@ -18,19 +21,14 @@ a.nav-link {
 a {
   color: gray;
 }
-
+button{
+  color: white;
+}
 a:hover{
   color: white;
 }
 div.apoie h{
   color: black;
-}
-div.apoie{
-  background-image: url("../img/lab.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
 }
 div.sobre{
   border-radius: 3px;
@@ -46,7 +44,6 @@ div.sobre h3{
 }
 button.doar{
   font-weight: bold;
-  color: black;
   background-color: mediumseagreen;
   border: none;
   padding: 10px;
