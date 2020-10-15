@@ -9,13 +9,21 @@ form#cadastro {
   margin-left: auto;
 }
 
-form#cadastro input {
+form#cadastro input{
   text-align: center;
-  background-color: #0f1418;
+  background-color: transparent;
+  border: 1px solid white;
   color: white;
   padding: 10px;
   border-radius: 3px;
-  border: none;
   outline: none;
   margin-top: 10px;
+}
+::placeholder{
+  color: white;
+  opacity: 0.8;
+}
+input#enviar{
+  background-color: white;
+  color: black;
 }
