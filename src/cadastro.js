@@ -21,10 +21,11 @@ function Cadastro() {
       </ul>
       <div id="cadastro"> 
       <h1>Crie sua conta.</h1>
-      <form id="cadastro" method="POST">
-        <input type="text" placeholder="Nome" minlenght="5"></input>
-        <input type="text" placeholder="Usuário" minLength="6"></input>
-        <input type="password" placeholder="Senha" minLength="8"></input>
+      <form id="cadastro" method="POST" action="home.js">
+        <input type="text" placeholder="Nome" minlenght="5" required></input>
+        <input type="text" placeholder="Usuário" minLength="6" required></input>
+        <input type="text" placeholder="Email" minLength="10" required></input>
+        <input type="password" placeholder="Senha" minLength="8" required></input>
         <input type="submit" id="enviar"></input>
       </form>
       </div>    
