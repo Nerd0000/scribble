@@ -7,7 +7,8 @@ function App() {
   return (
     <div id="inicio">
       <ul class="nav">
-        <img src={logo} alt="" width="50"></img>
+        <br></br>
+        <img src={logo} id="logo" alt="" width="50"></img>
         <li class="nav-item">
           <a class="nav-link" href="/">Home</a>
         </li>
@@ -28,7 +29,6 @@ function App() {
         <a href="login"><button class="btnlogin ">Login</button></a>
       </div>
       <br />
-      <div class="apoie">
       <br />
         <div class="sobre">
           <br />
@@ -37,7 +37,6 @@ function App() {
           <br />Doando você vai para o <b>mural dos apoiadores</b>e ajuda a comunidade científica.
         </div> 
       </div>
-    </div>
   );
 }
 

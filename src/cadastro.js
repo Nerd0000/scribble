@@ -21,7 +21,7 @@ function Cadastro() {
       </ul>
       <div id="cadastro"> 
       <h1>Crie sua conta.</h1>
-      <form id="cadastro">
+      <form id="cadastro" method="POST">
         <input type="text" placeholder="Nome" minlenght="5"></input>
         <input type="text" placeholder="Usuário" minLength="6"></input>
         <input type="password" placeholder="Senha" minLength="8"></input>

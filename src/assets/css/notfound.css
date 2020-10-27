@@ -1,7 +1,5 @@
 div.app{
-  background-image: url("../img/universe.jpg");
-  background-position: center;
-  background-attachment: fixed;
+  background-color: #0a0a0a;
 }
 .notfound {
   text-align: left;

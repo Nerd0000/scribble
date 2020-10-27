@@ -1,8 +1,5 @@
 body {
-  background-image: url("../img/bg.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #0a0a0a;
   height: 100vh;
   color: white;
   font-family: 'Mulish', sans-serif;
@@ -27,9 +24,6 @@ button{
 a:hover{
   color: white;
 }
-div.apoie h{
-  color: black;
-}
 div.sobre{
   border-radius: 3px;
   margin-right: auto;
@@ -47,4 +41,8 @@ button.doar{
   background-color: mediumseagreen;
   border: none;
   padding: 10px;
+}
+ul.nav{
+  margin-top: 10px;
+  margin-left: 10px;
 }
