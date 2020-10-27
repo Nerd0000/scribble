@@ -16,13 +16,14 @@ a.nav-link {
   margin-top: 5px;
 }
 a {
-  color: gray;
+  color: white;
 }
 button{
   color: white;
 }
 a:hover{
   color: white;
+  text-decoration: none;
 }
 div.sobre{
   border-radius: 3px;

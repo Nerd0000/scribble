@@ -25,7 +25,7 @@ Documentação do projeto e arquitetura do site – **Em andamento.**
 
 Registro de domínio próprio - **Em andamento.**
 
-Cadastro e login – **Não realizado.**
+Cadastro e login – **Em andamento.**
 
 Versão beta –  **Não realizada.**
 
